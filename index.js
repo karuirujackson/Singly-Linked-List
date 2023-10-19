@@ -4,12 +4,12 @@ const LinkedList = require('./LinkedList');
 const seasons = new LinkedList();
 seasons.printList();
 
-seasons.addToHead('spring');
 seasons.addToHead('summer');
+seasons.addToHead('spring');
 seasons.printList();
 
-seasons.addToTail('winter');
 seasons.addToTail('fall');
+seasons.addToTail('winter');
 seasons.printList();
 
 seasons.removeHead();
